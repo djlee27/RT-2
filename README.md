@@ -20,7 +20,7 @@ using a single sequence generation model.
 - VQA and robot action data are both formulated as sequence generation tasks and trained using a single cross-entropy loss
 - **Constrained decoding** is applied during inference to allow only valid action tokens
 
-## Differences from RT-2
+## Differences from RT-2 Paper
 - Uses a small **ViT-GPT2** model instead of PaLI-X / PaLM-E
 - Predicts **2D actions (dx, dy)** instead of 6-DoF robot actions
 - Uses **21-bin discretization** instead of 256-bin
