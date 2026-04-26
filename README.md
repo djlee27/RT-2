@@ -37,6 +37,6 @@ using a single sequence generation model.
 - Demonstrates VLA formulation in a minimal setting
 - Implements action-token-based control via language modeling
 - Validates mixed-task learning (VQA + control) in a unified framework
-
+ 
 ## How to Run
 - Open in Colab
