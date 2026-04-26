@@ -17,7 +17,7 @@ using a single sequence generation model.
 ## Core Implementation
 - Robot actions are represented as **text tokens**
 - The model generates **action token sequences** from image + instruction prompts
-- VQA samples and robot action samples are trained jointly using a **shared seq2seq loss**
+- VQA and robot action data are both formulated as sequence generation tasks and trained using a single cross-entropy loss
 - **Constrained decoding** is applied during inference to allow only valid action tokens
 
 ## Differences from RT-2
