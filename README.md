@@ -7,7 +7,7 @@ This project implements a simplified version of RT-2:
 - Action tokenization (continuous → discrete → text tokens)
 
 ## Key Idea
-We unify:
+unify:
 image + instruction → action tokens
 image + question → text
 
@@ -30,4 +30,4 @@ using a single sequence generation model.
 - Verified mixed-task learning (VQA + control)
 
 ## How to run
-(Open in Colab)
+- Open in Colab
