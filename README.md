@@ -8,8 +8,8 @@ This project implements a simplified version of RT-2:
 
 ## Key Idea
 unify:
-image + instruction → action tokens
-image + question → text
+- image + instruction → action tokens
+- image + question → text
 
 using a single sequence generation model.
 
